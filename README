@@ -11,3 +11,9 @@ This is a package of some commandline utilities relating to inotify.
 The general purpose of this package is to allow inotify's features to be used
 from within shell scripts.  Read the man pages for further details.
 
+
+
+//  例子  监控 目录变化
+root@hammerhead:/ # /data/local/tmp/inotifywait -r -m /data /cache /system
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
