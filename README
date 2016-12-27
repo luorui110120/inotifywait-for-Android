@@ -1,4 +1,4 @@
-The project files to build "inotifywait" by using Android NDK.
+锘縏he project files to build "inotifywait" by using Android NDK.
 "inotify-tools-v3.14.tar.gz" is the original source package by Rohan McGovern, Radu Voicilas.
 
 ---------------------------------------------------------------------
@@ -13,7 +13,7 @@ from within shell scripts.  Read the man pages for further details.
 
 
 
-//  例子  监控 目录变化
+//  渚嬪瓙  鐩戞帶 鐩綍鍙樺寲
 root@hammerhead:/ # /data/local/tmp/inotifywait -r -m /data /cache /system
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
